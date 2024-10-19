@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter to BSky Redirect",
+    "version": "1.0",
+    "description": "Redirects x.com/twitter.com to bsky.app",
+    "permissions": ["tabs"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "https://x.com/*",
+      "https://twitter.com/*"
+    ]
+  }
+  
